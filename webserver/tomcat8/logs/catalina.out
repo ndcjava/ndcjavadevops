@@ -1,0 +1,530 @@
+17-Apr-2019 00:47:53.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/java/jre
+17-Apr-2019 00:47:53.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 00:47:53.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 00:47:53.713 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 00:47:54.086 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 00:47:54.103 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 00:47:54.128 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 00:47:54.131 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 00:47:54.131 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1227 ms
+17-Apr-2019 00:47:54.184 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 00:47:54.185 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 00:47:54.203 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 00:47:54.839 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [631] ms
+17-Apr-2019 00:47:54.839 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 00:47:54.867 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [28] ms
+17-Apr-2019 00:47:54.867 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 00:47:55.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [398] ms
+17-Apr-2019 00:47:55.266 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 00:47:55.300 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [34] ms
+17-Apr-2019 00:47:55.301 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 00:47:55.334 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [33] ms
+17-Apr-2019 00:47:55.335 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 00:47:57.696 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 12:47:57:057 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 12:47:57:057 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 00:47:57 CST 2019]; root of context hierarchy
+[17/04/19 12:47:57:057 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 12:47:58:058 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 12:47:58:058 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 12:47:58:058 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 12:47:59:059 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1229 ms
+17-Apr-2019 00:47:59.060 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,724] ms
+17-Apr-2019 00:47:59.066 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 00:47:59.081 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 00:47:59.099 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4966 ms
+17-Apr-2019 01:08:53.032 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 01:08:53.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 01:08:53.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 01:08:53.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 01:08:53.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/java/jre
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:08:53.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:08:53.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 01:08:53.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 01:08:53.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 01:08:53.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 01:08:53.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 01:08:53.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 01:08:53.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:08:53.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:08:53.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 01:08:53.041 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 01:08:53.216 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:08:53.231 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+17-Apr-2019 01:08:53.233 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:08:53.236 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+17-Apr-2019 01:08:53.237 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 772 ms
+17-Apr-2019 01:08:53.282 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 01:08:53.282 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 01:08:53.306 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 01:08:53.768 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [461] ms
+17-Apr-2019 01:08:53.768 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 01:08:53.791 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [23] ms
+17-Apr-2019 01:08:53.792 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 01:08:54.228 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [435] ms
+17-Apr-2019 01:08:54.228 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 01:08:54.267 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [39] ms
+17-Apr-2019 01:08:54.267 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 01:08:54.303 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [36] ms
+17-Apr-2019 01:08:54.304 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 01:08:56.587 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:08:56:056 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:08:56:056 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 01:08:56 CST 2019]; root of context hierarchy
+[17/04/19 01:08:56:056 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1166 ms
+17-Apr-2019 01:08:57.883 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,578] ms
+17-Apr-2019 01:08:57.891 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4654 ms
+17-Apr-2019 01:08:57.897 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: 地址已在使用 (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+17-Apr-2019 01:08:57.898 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:08:57.898 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:08:57.898 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 01:08:56 CST 2019]; root of context hierarchy
+[17/04/19 01:08:57:057 CST] localhost-startStop-1  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:08:57.957 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:08:57.957 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:08:57.958 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:08:57.958 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:08:57:057 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:09:24.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 01:09:24.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 01:09:24.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 01:09:24.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 01:09:24.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 01:09:24.769 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 01:09:24.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/java/jre
+17-Apr-2019 01:09:24.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 01:09:24.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 01:09:24.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:09:24.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 01:09:24.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 01:09:24.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:09:24.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:09:24.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 01:09:24.772 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 01:09:25.000 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:09:25.018 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+17-Apr-2019 01:09:25.020 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:09:25.022 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1087)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:265)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+17-Apr-2019 01:09:25.023 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 859 ms
+17-Apr-2019 01:09:25.078 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 01:09:25.079 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 01:09:25.114 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 01:09:25.541 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [426] ms
+17-Apr-2019 01:09:25.545 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 01:09:25.568 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [23] ms
+17-Apr-2019 01:09:25.569 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 01:09:25.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [382] ms
+17-Apr-2019 01:09:25.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 01:09:25.989 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [38] ms
+17-Apr-2019 01:09:25.990 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 01:09:26.024 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [35] ms
+17-Apr-2019 01:09:26.025 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 01:09:28.218 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:09:28:028 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:09:28:028 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 01:09:28 CST 2019]; root of context hierarchy
+[17/04/19 01:09:28:028 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:09:28:028 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:09:29:029 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:09:29:029 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:09:29:029 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1078 ms
+17-Apr-2019 01:09:29.419 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,394] ms
+17-Apr-2019 01:09:29.426 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4402 ms
+17-Apr-2019 01:09:29.429 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: 地址已在使用 (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+17-Apr-2019 01:09:29.430 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:09:29.430 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:09:29.430 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:09:29:029 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 01:09:28 CST 2019]; root of context hierarchy
+[17/04/19 01:09:29:029 CST] localhost-startStop-1  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:09:29.482 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:09:29.482 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:09:29.482 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:09:29.483 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:09:29:029 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:10:11.212 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2019 01:10:11.213 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:10:11.223 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:10:11.230 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:10:11:011 CST] localhost-startStop-2  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 00:47:57 CST 2019]; root of context hierarchy
+[17/04/19 01:10:11:011 CST] localhost-startStop-2  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:10:11.298 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:10:11.303 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:10:11.311 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:10:11.311 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:10:11:011 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+17-Apr-2019 01:18:53.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 01:18:53.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/java/jre
+17-Apr-2019 01:18:53.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 01:18:53.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 01:18:53.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:18:53.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:18:53.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 01:18:53.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:18:53.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:18:53.593 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 01:18:53.593 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 01:18:53.786 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:18:53.805 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:18:53.832 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:18:53.834 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:18:53.835 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 830 ms
+17-Apr-2019 01:18:53.890 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 01:18:53.890 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 01:18:53.904 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 01:18:54.370 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [465] ms
+17-Apr-2019 01:18:54.371 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 01:18:54.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [34] ms
+17-Apr-2019 01:18:54.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 01:18:54.796 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [391] ms
+17-Apr-2019 01:18:54.797 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 01:18:54.841 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [44] ms
+17-Apr-2019 01:18:54.842 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 01:18:54.881 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [39] ms
+17-Apr-2019 01:18:54.881 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 01:18:56.814 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:18:56:056 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:18:57:057 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 01:18:57 CST 2019]; root of context hierarchy
+[17/04/19 01:18:57:057 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:18:57:057 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:18:57:057 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:18:57:057 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:18:58:058 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1091 ms
+17-Apr-2019 01:18:58.037 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,155] ms
+17-Apr-2019 01:18:58.047 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:18:58.075 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:18:58.084 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4248 ms
+17-Apr-2019 01:19:04.814 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2019 01:19:04.814 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:19:04.824 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:19:04.831 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:19:04:004 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 01:18:57 CST 2019]; root of context hierarchy
+[17/04/19 01:19:04:004 CST] localhost-startStop-1  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:19:04.882 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:19:04.894 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:19:04.904 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:19:04.906 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:19:04:004 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+17-Apr-2019 01:22:31.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 01:22:31.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/java/jre
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 01:22:31.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 01:22:31.090 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 01:22:31.264 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:22:31.282 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:22:31.311 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:22:31.313 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:22:31.314 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 821 ms
+17-Apr-2019 01:22:31.369 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 01:22:31.369 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 01:22:31.393 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 01:22:31.833 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [435] ms
+17-Apr-2019 01:22:31.834 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 01:22:31.859 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [25] ms
+17-Apr-2019 01:22:31.859 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 01:22:32.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [402] ms
+17-Apr-2019 01:22:32.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 01:22:32.293 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [32] ms
+17-Apr-2019 01:22:32.293 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 01:22:32.325 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [32] ms
+17-Apr-2019 01:22:32.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 01:22:34.143 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 01:22:34 CST 2019]; root of context hierarchy
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:22:34:034 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:22:35:035 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1016 ms
+17-Apr-2019 01:22:35.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [2,934] ms
+17-Apr-2019 01:22:35.265 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:22:35.292 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:22:35.313 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3999 ms
+17-Apr-2019 01:23:58.420 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2019 01:23:58.421 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:23:58.431 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:23:58.438 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:23:58:058 CST] localhost-startStop-2  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 01:22:34 CST 2019]; root of context hierarchy
+[17/04/19 01:23:58:058 CST] localhost-startStop-2  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:23:58.509 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:23:58.521 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:23:58.527 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:23:58.528 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:23:58:058 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行482: /docker/ndcjavadevops/webdockerfiles/jdk/bin/java: 没有那个文件或目录
+17-Apr-2019 01:29:20.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 01:29:20.076 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /docker/ndcjavadevops/webdockerfiles/jdk/jre
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:29:20.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:29:20.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 01:29:20.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 01:29:20.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 01:29:20.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 01:29:20.078 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 01:29:20.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 01:29:20.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:29:20.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 01:29:20.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 01:29:20.079 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 01:29:20.282 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:29:20.302 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:29:20.360 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:29:20.363 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2019 01:29:20.367 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 846 ms
+17-Apr-2019 01:29:20.427 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 01:29:20.427 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 01:29:20.439 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 01:29:20.865 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [425] ms
+17-Apr-2019 01:29:20.865 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 01:29:20.896 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [30] ms
+17-Apr-2019 01:29:20.896 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 01:29:21.325 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [428] ms
+17-Apr-2019 01:29:21.325 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 01:29:21.360 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [35] ms
+17-Apr-2019 01:29:21.360 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 01:29:21.395 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [34] ms
+17-Apr-2019 01:29:21.395 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 01:29:23.474 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:29:23:023 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:29:23:023 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 01:29:23 CST 2019]; root of context hierarchy
+[17/04/19 01:29:23:023 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:29:23:023 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:29:24:024 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:29:24:024 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:29:24:024 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 1080 ms
+17-Apr-2019 01:29:24.655 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,260] ms
+17-Apr-2019 01:29:24.662 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:29:24.689 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:29:24.708 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4340 ms
+17-Apr-2019 01:29:30.888 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2019 01:29:30.889 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:29:30.899 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:29:30.906 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:29:30:030 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 01:29:23 CST 2019]; root of context hierarchy
+[17/04/19 01:29:30:030 CST] localhost-startStop-1  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 01:29:30.950 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:29:30.962 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2019 01:29:30.967 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2019 01:29:30.968 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+[17/04/19 01:29:30:030 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
