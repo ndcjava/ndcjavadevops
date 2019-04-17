@@ -3,9 +3,9 @@
 PWD=$(cd `dirname $0`;pwd);
 parentPath=$(dirname ${PWD})
 cd ${PWD}
-JAVA_HOME="${parentPath}/jdk"
+JAVA_HOME="${parentPath}/jdk/jdk1.8.0_152"
 CLASSPATH="$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
-JAVA_OPTS="-Xms512m -Xmx512m -Xmn256m -Xss256K -XX:SurvivorRatio=8 -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -XX:+UseConcMarkSweepGC -XX:ConcGCThreads=4 -XX:+CMSClassUnloadingEnabled -Dfile.encoding=UTF-8 -XX:+DisableExplicitGC"
+JAVA_OPTS="-Xms1024m -Xmx1024m -Xmn512m -Xss256K -XX:SurvivorRatio=8 -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -XX:+UseConcMarkSweepGC -XX:ConcGCThreads=4 -XX:+CMSClassUnloadingEnabled -Dfile.encoding=UTF-8 -XX:+DisableExplicitGC -XX:+PrintGC -XX:+PrintGCTimeStamps -Xloggc:./gc.log"
 
 
 case "$1" in    
