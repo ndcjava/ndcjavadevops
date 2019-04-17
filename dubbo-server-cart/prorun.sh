@@ -3,7 +3,7 @@
 PWD=$(cd `dirname $0`;pwd);
 parentPath=$(dirname ${PWD})
 cd ${PWD}
-JAVA_HOME="${parentPath}/jd8serverdockerfiles/jdk"
+JAVA_HOME="${parentPath}/jdk"
 CLASSPATH="$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 JAVA_OPTS="-Xms512m -Xmx512m -Xmn256m -Xss256K -XX:SurvivorRatio=8 -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=128m -XX:+UseConcMarkSweepGC -XX:ConcGCThreads=4 -XX:+CMSClassUnloadingEnabled -Dfile.encoding=UTF-8 -XX:+DisableExplicitGC"
 

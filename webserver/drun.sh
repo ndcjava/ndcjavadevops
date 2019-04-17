@@ -16,7 +16,7 @@ fi
 case $1 in
   run)
     if ! docker images | grep -i dubbo-client; then
-    docker build -t dubbo-client:v1.0 -f ${PPATH}/webdockerfiles/Dockerfile ${PPATH}/webdockerfiles/
+    docker build -t dubbo-client:v1.0 -f ${PPATH}/webdockerfiles/Dockerfile ${PPATH}/jdk/
     fi
     echo docker run $NAME
     docker run --name $NAME -p $LOCALPORT:$DOCKERPORT $VPATH -d dubbo-client:v1.0

@@ -9,7 +9,7 @@ VPATH="-v ${PWD}/serverconfig.properties:/serverconfig.properties  -v ${PWD}/dub
 case $1 in
   run)
     if ! docker images | grep -i dubbo-server; then
-       docker build -t dubbo-server:v1.0 -f ${PPATH}/jd8serverdockerfiles/Dockerfile ${PPATH}/jd8serverdockerfiles/
+       docker build -t dubbo-server:v1.0 -f ${PPATH}/jd8serverdockerfiles/Dockerfile ${PPATH}/jdk
     fi
     echo docker run $NAME
     docker run --net=host --name $NAME $VPATH -d dubbo-server:v1.0

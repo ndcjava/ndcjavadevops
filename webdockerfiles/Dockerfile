@@ -1,7 +1,7 @@
 FROM centos
 MAINTAINER chendi
 RUN mkdir /usr/local/java
-ADD jdk-8u152-linux-x64.tar.gz /usr/local/java/
+ADD jdk8.tar.gz /usr/local/java/
 RUN ln -s /usr/local/java/jdk1.8.0_152 /usr/local/java/jdk
 ENV JAVA_HOME /usr/local/java/jdk
 ENV JRE_HOME ${JAVA_HOME}/jre
