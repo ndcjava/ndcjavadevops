@@ -116,6 +116,7 @@
 # -----------------------------------------------------------------------------
 
 # OS specific support.  $var _must_ be set to either true or false.
+JAVA_OPTS="-Xms1024m -Xmx1024m -Xmn512m -Xss256K -XX:SurvivorRatio=8 -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=256m -XX:+UseConcMarkSweepGC -XX:ConcGCThreads=4 -XX:+CMSClassUnloadingEnabled -Dfile.encoding=UTF-8 -XX:+DisableExplicitGC"
 cygwin=false
 darwin=false
 os400=false

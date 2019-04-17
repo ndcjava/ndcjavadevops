@@ -528,3 +528,133 @@ Caused by: java.net.BindException: 地址已在使用
 17-Apr-2019 01:29:30.967 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 17-Apr-2019 01:29:30.968 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
 [17/04/19 01:29:30:030 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71
+/docker/ndcjavadevops/webserver/tomcat8/bin/catalina.sh:行483: /docker/ndcjavadevops/jd8serverdockerfiles/jdk/bin/java: 没有那个文件或目录
+17-Apr-2019 13:19:07.231 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 70 column 69: 已经为元素 "Connector" 指定属性 "protocol"。
+ org.xml.sax.SAXParseException; systemId: file:/docker/ndcjavadevops/webserver/tomcat8/conf/server.xml; lineNumber: 70; columnNumber: 69; 已经为元素 "Connector" 指定属性 "protocol"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1560)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+17-Apr-2019 13:19:07.240 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 已经为元素 "Connector" 指定属性 "protocol"。
+17-Apr-2019 13:19:07.241 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+17-Apr-2019 13:20:45.139 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+17-Apr-2019 13:20:45.145 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'false' did not find a matching property.
+17-Apr-2019 13:20:45.183 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 167 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+ org.xml.sax.SAXParseException; systemId: file:/docker/ndcjavadevops/webserver/tomcat8/conf/server.xml; lineNumber: 167; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+17-Apr-2019 13:20:45.186 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+17-Apr-2019 13:20:45.186 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+17-Apr-2019 13:21:34.225 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+17-Apr-2019 13:21:34.231 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'false' did not find a matching property.
+17-Apr-2019 13:21:34.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.38
+17-Apr-2019 13:21:34.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2019 11:42:42 UTC
+17-Apr-2019 13:21:34.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.38.0
+17-Apr-2019 13:21:34.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Apr-2019 13:21:34.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.3.2.el7.x86_64
+17-Apr-2019 13:21:34.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2019 13:21:34.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /docker/ndcjavadevops/jdk/jdk1.8.0_152/jre
+17-Apr-2019 13:21:34.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+17-Apr-2019 13:21:34.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2019 13:21:34.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 13:21:34.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 13:21:34.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/docker/ndcjavadevops/webserver/tomcat8/conf/logging.properties
+17-Apr-2019 13:21:34.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2019 13:21:34.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+17-Apr-2019 13:21:34.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+17-Apr-2019 13:21:34.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmn512m
+17-Apr-2019 13:21:34.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xss256K
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:SurvivorRatio=8
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MetaspaceSize=256m
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxMetaspaceSize=256m
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseConcMarkSweepGC
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ConcGCThreads=4
+17-Apr-2019 13:21:34.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+CMSClassUnloadingEnabled
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+DisableExplicitGC
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2019 13:21:34.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 13:21:34.269 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/docker/ndcjavadevops/webserver/tomcat8
+17-Apr-2019 13:21:34.269 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/docker/ndcjavadevops/webserver/tomcat8/temp
+17-Apr-2019 13:21:34.269 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Apr-2019 13:21:34.480 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio2-8080"]
+17-Apr-2019 13:21:34.489 警告 [main] org.apache.tomcat.util.net.Nio2Endpoint.bind The NIO2 connector requires an exclusive executor to operate properly on shutdown
+17-Apr-2019 13:21:34.616 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1024 ms
+17-Apr-2019 13:21:34.669 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2019 13:21:34.669 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.38
+17-Apr-2019 13:21:35.213 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT]
+17-Apr-2019 13:21:35.243 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/ROOT] has finished in [29] ms
+17-Apr-2019 13:21:35.243 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs]
+17-Apr-2019 13:21:35.270 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/docs] has finished in [26] ms
+17-Apr-2019 13:21:35.270 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples]
+17-Apr-2019 13:21:35.781 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/examples] has finished in [511] ms
+17-Apr-2019 13:21:35.782 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager]
+17-Apr-2019 13:21:35.834 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/host-manager] has finished in [53] ms
+17-Apr-2019 13:21:35.835 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager]
+17-Apr-2019 13:21:35.882 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/manager] has finished in [47] ms
+17-Apr-2019 13:21:35.882 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client]
+17-Apr-2019 13:21:38.360 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[17/04/19 01:21:38:038 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization started
+[17/04/19 01:21:38:038 CST] localhost-startStop-1  INFO support.XmlWebApplicationContext: Refreshing Root WebApplicationContext: startup date [Wed Apr 17 13:21:38 CST 2019]; root of context hierarchy
+[17/04/19 01:21:38:038 CST] localhost-startStop-1  INFO xml.XmlBeanDefinitionReader: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/dubbo-client-one.xml]
+[17/04/19 01:21:38:038 CST] localhost-startStop-1  INFO logger.LoggerFactory: using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[17/04/19 01:21:39:039 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:21:39:039 CST] localhost-startStop-1  WARN extension.SpringExtensionFactory:  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.6, current host: 192.168.1.71
+[17/04/19 01:21:39:039 CST] localhost-startStop-1  INFO context.ContextLoader: Root WebApplicationContext: initialization completed in 928 ms
+17-Apr-2019 13:21:39.417 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/docker/ndcjavadevops/webserver/tomcat8/webapps/dubbo-client] has finished in [3,535] ms
+17-Apr-2019 13:21:39.477 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio2-8080"]
+17-Apr-2019 13:21:39.481 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4863 ms
+17-Apr-2019 13:21:54.856 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Apr-2019 13:21:54.857 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio2-8080"]
+17-Apr-2019 13:21:54.868 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+[17/04/19 01:21:54:054 CST] localhost-startStop-2  INFO support.XmlWebApplicationContext: Closing Root WebApplicationContext: startup date [Wed Apr 17 13:21:38 CST 2019]; root of context hierarchy
+[17/04/19 01:21:54:054 CST] localhost-startStop-2  INFO support.AbstractRegistryFactory:  [DUBBO] Close all registries [], dubbo version: 2.6.6, current host: 192.168.1.71
+17-Apr-2019 13:21:54.948 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio2-8080"]
+17-Apr-2019 13:21:54.950 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio2-8080"]
+[17/04/19 01:21:54:054 CST] DubboShutdownHook  INFO config.DubboShutdownHook:  [DUBBO] Run shutdown hook now., dubbo version: 2.6.6, current host: 192.168.1.71

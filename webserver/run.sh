@@ -3,7 +3,7 @@
 PWD=$(cd `dirname $0`;pwd);
 PPATH=$(dirname ${PWD})
 cd ${PWD}
-JAVA_HOME="${PPATH}/jd8serverdockerfiles/jdk"
+JAVA_HOME="${PPATH}/jdk/jdk1.8.0_152"
 CLASSPATH="$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 CATALINA_HOME="${PWD}/tomcat8"
 case "$1" in    
